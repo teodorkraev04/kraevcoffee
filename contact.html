@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакти – KraevCoffee</title>
+    <meta name="description" content="Контакти с KraevCoffee – Варна.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>KraevCoffee</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="about.html">За нас</a></li>
+            <li><a href="services.html">Дейност</a></li>
+            <li><a href="news.html">Новини</a></li>
+            <li><a href="gallery.html">Галерия</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Свържете се с нас</h2>
+
+    <form onsubmit="return validateForm()">
+        <label>Име:</label>
+        <input type="text" id="name">
+
+        <label>E-mail:</label>
+        <input type="email" id="email">
+
+        <label>Съобщение:</label> 
+        <textarea id="message"></textarea>
+
+        <button type="submit">Изпрати</button>
+    </form>
+
+    <h2>Контактна информация</h2>
+    <p>гр. Варна</p>
+    <p>Email: info@kraevcoffee.bg</p>
+
+    <iframe
+        src="https://www.google.com/maps?q=Varna&output=embed"
+        width="100%" height="300">
+    </iframe>
+</main>
+
+<footer>
+    <p>© 2026 KraevCoffee | Теодор Краев</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
